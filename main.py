@@ -15,7 +15,7 @@ app = Flask(__name__)
 # $env:GEMINI_API_KEY="YOUR_API_KEY_HERE" (Windows PowerShell)
 # export GEMINI_API_KEY="YOUR_API_KEY_HERE" (Linux/macOS)
 try:
-    genai.configure(api_key="AIzaSyBzgADEh49W9YpFqQnl3HrRhyixURTt6jE")
+    genai.configure(api_key="AIzaSyBzKUAFWfH9HAoRdPqLCejxIy-k4M2vjXw")
 except KeyError:
     print("Key error.")
     exit(1) # Exit if API key is not found
